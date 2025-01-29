@@ -11,7 +11,6 @@ name = "pyrope_ipywidgets"
 requires-python = ">=3.10"
 dependencies = [
     "ipywidgets>=8.0.0",
-    "pyrope @ git+https://github.com/PyRope-E-Assessment/pyrope.git@0.1.X-notebook7",
 ]
 version = "0.1.0"
 
@@ -27,8 +26,8 @@ artifacts = [
 
 [tool.hatch.build.targets.wheel.shared-data]
 "pyrope_ipywidgets/nbextension" = "share/jupyter/nbextensions/pyrope_ipywidgets"
-"pyrope_ipywidgets/labextension" = "share/jupyter/labextensions/pyrope-ipywidgets"
-"./install.json" = "share/jupyter/labextensions/pyrope-ipywidgets/install.json"
+"pyrope_ipywidgets/labextension" = "share/jupyter/labextensions/@pyrope-e-assessment/pyrope-ipywidgets"
+"./install.json" = "share/jupyter/labextensions/@pyrope-e-assessment/pyrope-ipywidgets/install.json"
 "./pyrope_ipywidgets.json" = "etc/jupyter/nbconfig/notebook.d/pyrope_ipywidgets.json"
 
 [tool.hatch.build.targets.sdist]

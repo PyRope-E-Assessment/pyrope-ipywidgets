@@ -6,7 +6,7 @@ define(function() {
     window['requirejs'].config({
         map: {
             '*': {
-                'pyrope-ipywidgets': 'nbextensions/pyrope_ipywidgets/index',
+                '@pyrope-e-assessment/pyrope-ipywidgets': 'nbextensions/pyrope_ipywidgets/index',
             },
         }
     });

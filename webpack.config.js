@@ -56,7 +56,7 @@ module.exports = [
         filename: 'index.js',
         path: path.resolve(__dirname, 'dist'),
         libraryTarget: 'amd',
-        library: "pyrope-ipywidgets",
+        library: "@pyrope-e-assessment/pyrope-ipywidgets",
         publicPath: 'https://unpkg.com/@pyrope-e-assessment/pyrope-ipywidgets@' + version + '/dist/'
     },
     devtool: 'source-map',
@@ -78,7 +78,7 @@ module.exports = [
     output: {
       filename: 'embed-bundle.js',
       path: path.resolve(__dirname, 'docs', 'source', '_static'),
-      library: "pyrope-ipywidgets",
+      library: "@pyrope-e-assessment/pyrope-ipywidgets",
       libraryTarget: 'amd'
     },
     module: {

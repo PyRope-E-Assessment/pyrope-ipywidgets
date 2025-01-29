@@ -9,7 +9,7 @@ import { MODULE_NAME, MODULE_VERSION } from './version';
 import * as widgetExports from './widgets';
 
 
-const EXTENSION_ID = 'pyrope-ipywidgets:plugin';
+const EXTENSION_ID = '@pyrope-e-assessment/pyrope-ipywidgets:plugin';
 
 
 const examplePlugin: IPlugin<Application<Widget>, void> = {

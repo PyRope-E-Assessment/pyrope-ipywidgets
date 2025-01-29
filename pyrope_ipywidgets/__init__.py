@@ -31,7 +31,7 @@ def _jupyter_labextension_paths():
     """
     return [{
         'src': 'labextension',
-        'dest': 'pyrope-ipywidgets',
+        'dest': '@pyrope-e-assessment/pyrope-ipywidgets',
     }]
 
 
